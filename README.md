@@ -11,6 +11,7 @@ MongoDB performance monitor plugin for Open-Falcon
 支持结构: standlone, 副本集,分片集群
 
 支持节点：mongod数据节点，配置节点，Primary/Secondary, mongos; 不支持Arbiter节点
+新增慢查询监控功能，自定义慢查询，配置好数据库名称，自动开启慢查询
 
 监控数据采集原理
 ---------------
@@ -239,4 +240,4 @@ MongoDB falcon screen
 
 Contributors
 ------------------------------------------
-- 卓汝林: mail:zhuorulintec@163.com; weibo: http://weibo.com/u/2540962412
+- Chuck: mail:chuck8685@gmail.com; blog: http://52devops.com
